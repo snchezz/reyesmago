@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta Reyes</title>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <h1>Carta a los reyes magos</h1>
+                <br>
+                <h4>Queridos reyes magos de oriente, este año me portao mu bien mu bien, yo os voy a pedir estas
+                    cositas, que no me podeis traer na, no pasa na, esto es solo orientativo, os quiero reyes magos de
+                    oriente</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <table id="productTable" class="striped">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Precio</th>
+                    <th>Enlace Orientativo</th>
+                    <th>Imagen Orientativa</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>WD-40 Specialist Motorbike Kit</td>
+                    <td>27,40€</td>
+                    <td><a href="https://www.amazon.es/WD-40-Specialist-Motorbike-Mantenimiento-Ambiente/dp/B09TPJGBZN?ref_=ast_sto_dp&th=1"
+                            target="_blank">Enlace</a></td>
+                    <td> <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Imagen</a> </td>
+                </tr>
+                <tr>
+                    <td>Insta360 X3 Kit Motero</td>
+                    <td>634€</td>
+                    <td><a href="https://store.insta360.com/product/x3?i_source=website&i_medium=product_page_button&i_campaign=x3"
+                            target="_blank">Enlace</a></td>
+                    <td> <a class="waves-effect waves-light btn modal-trigger" href="#modal2">Imagen</a> </td>
+                </tr>
+                <tr>
+                    <td>Espinilleras Epic Negras Mate</td>
+                    <td>49,90€</td>
+                    <td><a href="https://www.buddhafightwear.com/products/espinilleras-muay-thai-mma-kick-boxing-epic-negra-mate?variant=40428510412851"
+                            target="_blank">Enlace</a></td>
+                    <td> <a class="waves-effect waves-light btn modal-trigger" href="#modal3">Imagen</a> </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <div class="center">
+        <p>Andres Sanchez</p>
+    </div>
+
+    <div id="modal1" class="modal">
+        <img class="modal-trigger" data-target="imageModal"
+            src="https://m.media-amazon.com/images/I/81ZPfMQnalL._AC_SL1500_.jpg" alt="Imagen">
+    </div>
+    <div id="modal2" class="modal">
+        <img class="modal-trigger" data-target="imageModal"
+            src="https://res.insta360.com/static/d62f86de5f098a82924db7c662b7d375/%E5%AE%98%E6%96%B9%E5%95%86%E5%9F%8E%20X3%20MTC%E4%B8%BB%E5%9B%BE1.png?x-oss-process=image%2Fauto-orient%2C1%2Fformat%2Cwebp"
+            alt="Imagen">
+    </div>
+    <div id="modal3" class="modal">
+        <img class="modal-trigger" data-target="imageModal"
+            src="https://cdn.shopify.com/s/files/1/0063/6092/4211/files/eepemb.png?v=1701428955" alt="Imagen">
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
